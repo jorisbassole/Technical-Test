@@ -1,9 +1,45 @@
-# React + Vite
+# Mon Test Technique
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une application web qui permet de sélectionner des utilisateurs et d'afficher l'âge moyen des utilisateurs sélectionnés.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Technical-Test
+Pour installer ce projet sur votre machine locale, suivez les étapes suivantes :
+
+1. **Clonez le dépôt** :
+git clone https://github.com/jorisbassole/Technical-Test.git
+
+2. **Installer les Dépendances:**
+
+   cd votre répertoire
+   
+   $ yarn install
+   
+   $ npm install
+
+
+## Utilisation
+
+1. **Démarrer l'Application:**
+
+   $ yarn run dev / yarn start
+   
+   $ npm start / npm run dev
+   
+
+## Fonctionnalités
+UserList: Sélection d'utilisateurs. Vous pouvez sélectionner des utilisateurs en cochant les cases correspondantes.
+
+UserAverage: Affichage de l'âge moyen. L'âge moyen des utilisateurs sélectionnés est affiché en temps réel.
+
+## Technologies utilisées
+React : Pour la création de l'interface utilisateur.
+
+fetch API : Pour la récupération des données de l'API.
+
+
+## Auteur
+Joris Bassole
+
+
+
